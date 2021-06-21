@@ -1,0 +1,9 @@
+{"biler":[
+   {"merke":"BMW", "aarsmodell":2012, "kilometer":170000, "girkasse":"Manuell", "drivstoff":"Diesel"},
+   {"merke":"Audi", "aarsmodell":2010, "kilometer":120000, "girkasse":"Automat", "drivstoff":"Bensin"},
+   {"merke":"Volvo", "aarsmodell":1998, "kilometer":300000, "girkasse":"Manuell", "drivstoff":"Diesel"},
+   {"merke":"Tesla", "aarsmodell":2020, "kilometer":0, "girkasse":"Automat", "drivstoff":"Elektrisk"}
+
+
+
+]}

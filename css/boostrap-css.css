@@ -1,0 +1,86 @@
+*{
+
+    box-sizing: border-box;
+    }
+        @font-face{
+        font-family: excluded;
+        src: url("font/Azonix-1VB0.otf");
+    }
+        html {
+      scroll-behavior: smooth;
+      font-family: excluded;
+    }
+    
+      html,
+    body,
+    header,
+    .view {
+      height: 100%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 600px;
+      }
+    }
+    .view{
+      background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');
+      height: 100%; 
+      
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .button{
+      background-color: slategray;
+      opacity: 0.5;
+      color: black;
+    }
+    .container{
+      margin-top: 200px;
+    }
+    .snow a{
+      color:snow;
+    }
+    .ingen_link a{
+      text-decoration: none;
+     
+      color:black;
+      transition: 0.3;
+    }
+    .ingen_link_white a{
+      text-decoration: none;
+      color:snow;
+     
+      transition: 0.3;
+    }
+    .ingen_link a:hover{
+      color: slategray;
+    }
+    .navigasjon form{
+        justify-content: end;
+    }
+    .nav-color{
+        background-color: #457b9d;
+        color: #f1faee;
+    }
+    .footer{
+      margin-bottom:0; 
+     
+    }
+    
